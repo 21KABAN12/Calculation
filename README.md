@@ -1,2 +1,25 @@
-# Calculation
-# A simple calculator in C++, The project implements basic arithmetic operations with error handling.  ## Functionality - Addition, subtraction, multiplication, division - Handling division by zero - Unit Tests ## Build ``bash mkdir build &amp;&amp; cd build cmake .. make
+#Простой калькулятор на C++
+
+Проект реализует базовые арифметические операции с обработкой ошибок.
+
+## Функциональность
+- Сложение, вычитание, умножение, деление
+- Обработка деления на ноль
+- Модульные тесты
+
+## Сборка
+```bash
+mkdir build && cd build
+cmake ..
+make
+
+calculator/
+├── CMakeLists.txt
+├── src/
+│   ├── main.cpp
+│   └── calculator.cpp
+├── include/
+│   └── calculator.h
+├── tests/
+│   └── test_calculator.cpp
+└── README.md
